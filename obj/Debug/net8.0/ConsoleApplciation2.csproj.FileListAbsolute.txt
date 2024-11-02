@@ -1,0 +1,15 @@
+D:\INTERN\.Net\C#\ConsoleApplciation2\bin\Debug\net8.0\ConsoleApplciation2.exe
+D:\INTERN\.Net\C#\ConsoleApplciation2\bin\Debug\net8.0\ConsoleApplciation2.deps.json
+D:\INTERN\.Net\C#\ConsoleApplciation2\bin\Debug\net8.0\ConsoleApplciation2.runtimeconfig.json
+D:\INTERN\.Net\C#\ConsoleApplciation2\bin\Debug\net8.0\ConsoleApplciation2.dll
+D:\INTERN\.Net\C#\ConsoleApplciation2\bin\Debug\net8.0\ConsoleApplciation2.pdb
+D:\INTERN\.Net\C#\ConsoleApplciation2\obj\Debug\net8.0\ConsoleApplciation2.GeneratedMSBuildEditorConfig.editorconfig
+D:\INTERN\.Net\C#\ConsoleApplciation2\obj\Debug\net8.0\ConsoleApplciation2.AssemblyInfoInputs.cache
+D:\INTERN\.Net\C#\ConsoleApplciation2\obj\Debug\net8.0\ConsoleApplciation2.AssemblyInfo.cs
+D:\INTERN\.Net\C#\ConsoleApplciation2\obj\Debug\net8.0\ConsoleApplciation2.csproj.CoreCompileInputs.cache
+D:\INTERN\.Net\C#\ConsoleApplciation2\obj\Debug\net8.0\ConsoleApplciation2.sourcelink.json
+D:\INTERN\.Net\C#\ConsoleApplciation2\obj\Debug\net8.0\ConsoleApplciation2.dll
+D:\INTERN\.Net\C#\ConsoleApplciation2\obj\Debug\net8.0\refint\ConsoleApplciation2.dll
+D:\INTERN\.Net\C#\ConsoleApplciation2\obj\Debug\net8.0\ConsoleApplciation2.pdb
+D:\INTERN\.Net\C#\ConsoleApplciation2\obj\Debug\net8.0\ConsoleApplciation2.genruntimeconfig.cache
+D:\INTERN\.Net\C#\ConsoleApplciation2\obj\Debug\net8.0\ref\ConsoleApplciation2.dll
