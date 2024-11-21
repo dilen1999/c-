@@ -67,26 +67,60 @@ namespace ConsoleApplication2
             //     Console.WriteLine("Mark is: " + mark);
             // }
 
-            // Example 6: ArrayList
-            ArrayList arrayList = new ArrayList();
-            arrayList.Add("Sample");
-            arrayList.Add("123");
-            arrayList.Add('A');
-            for (int i = 0; i < arrayList.Count; i++)
-            {
-                Console.WriteLine(arrayList[i]);
-            }
+            // // Example 6: ArrayList
+            // ArrayList arrayList = new ArrayList();
+            // arrayList.Add("Sample");
+            // arrayList.Add("123");
+            // arrayList.Add('A');
+            // for (int i = 0; i < arrayList.Count; i++)
+            // {
+            //     Console.WriteLine(arrayList[i]);
+            // }
 
-            List<int> EmpId = new List<int>();
-            EmpId.Add(101);
-            EmpId.Add(102);
-            EmpId.Add(103);
+            // List<int> EmpId = new List<int>();
+            // EmpId.Add(101);
+            // EmpId.Add(102);
+            // EmpId.Add(103);
 
-            foreach (int emp in EmpId)
+            // foreach (int emp in EmpId)
+            // {
+            //     Console.WriteLine(emp);
+            // }
+            // Console.WriteLine();
+
+            // // hash table
+            // Hashtable hashtable = new Hashtable();
+            // hashtable.Add("101", "BTree1");
+            // hashtable.Add("102", "BTree2");
+            // hashtable.Add("103", "BTree3");
+            // hashtable.Add("104", "BTree4");
+            // hashtable.Add("105", "BTree5");
+            // foreach (var item in hashtable.Keys)
+            // {
+            //     Console.WriteLine(hashtable[item]);
+            // }
+
+            // // Sorted List
+            // SortedList sortedList = new SortedList();
+            // sortedList.Add("1", "A");
+            // sortedList.Add("2", "B");
+            // sortedList.Add("3", "C");
+            // foreach (var value in sortedList.Keys)
+            // {
+            //     Console.WriteLine(sortedList[value]);
+            // }
+
+            // priority  based collection
+            //Stack
+            Stack stack = new Stack();
+            stack.Push("Kala");
+            stack.Push("Mala");
+            stack.Push("Bala");
+
+            while (stack.Count > 0)
             {
-                Console.WriteLine(emp);
+                Console.WriteLine(stack.Pop());
             }
-            Console.WriteLine();
         }
     }
 }
