@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 // Console.WriteLine("Hello, World!");
 
+using System;
 using System.Collections;
 
 namespace ConsoleApplication2
@@ -110,17 +111,53 @@ namespace ConsoleApplication2
             //     Console.WriteLine(sortedList[value]);
             // }
 
-            // priority  based collection
-            //Stack
-            Stack stack = new Stack();
-            stack.Push("Kala");
-            stack.Push("Mala");
-            stack.Push("Bala");
+            // // priority  based collection
+            // //Stack
+            // Stack stack = new Stack();
+            // stack.Push("Kala");
+            // stack.Push("Mala");
+            // stack.Push("Bala");
 
-            while (stack.Count > 0)
+            // while (stack.Count > 0)
+            // {
+            //     Console.WriteLine(stack.Pop());
+            // }
+            // Console.WriteLine("................Queue...................");
+            // //Queue
+            // Queue queue = new Queue();
+            // queue.Enqueue("Jana");
+            // queue.Enqueue("kamala");
+            // queue.Enqueue("vimal");
+            // while (queue.Count > 0)
+            // {
+            //     Console.WriteLine(queue.Dequeue());
+            // }
+
+            // Console.WriteLine("..............Generic collection...................");
+            // //Stack<T>
+            // Stack<string> stack1 = new Stack<string>();
+            // stack1.Push("siva");
+            // stack1.Push("sive qq");
+            // stack1.Push("siva ofr");
+            // while (stack1.Count > 0)
+            // {
+            //     Console.WriteLine(stack1.Pop());
+            // }
+
+            Console.WriteLine("..............Exception Handling...................");
+            //ArgumentOutOfRange Exeception
+            List<String> fruits = new List<string> { "Apple", "Banana", "Cherry" };
+            try
             {
-                Console.WriteLine(stack.Pop());
+                string fruit;
+                fruit = fruits[5];
+                Console.WriteLine("Fruit:" + fruit);
             }
+            catch (ArgumentOutOfRangeException exception)
+            {
+                Console.WriteLine(exception.Message);
+            }
+
         }
     }
 }
