@@ -191,9 +191,29 @@ using ConsoleApplication2;
 // Console.WriteLine("Sum is " + sum);
 // Console.ReadLine();
 
-MyClass myClass = new MyClass();
-myClass.Name = "B tree";
-myClass.Age = 24;
+// MyClass myClass = new MyClass();
+// myClass.Name = "B tree";
+// myClass.Age = 24;
 
-Console.WriteLine(" display information");
-myClass.DisplayInfo();
+// Console.WriteLine(" display information");
+// myClass.DisplayInfo();
+
+int empId;
+string empName, department;
+decimal salary;
+
+Console.WriteLine("Enter Employee id: ");
+empId = int.Parse(Console.ReadLine());
+Console.WriteLine("Enter Employee Name: ");
+empName = Console.ReadLine();
+Console.WriteLine("Enter Employee Department: ");
+department = Console.ReadLine();
+Console.WriteLine("Enter Employee salary: ");
+salary = decimal.Parse(Console.ReadLine());
+
+IEmployee employee = new EmployeeDetails(empId, empName, department, salary);
+employee.DisplayEmployeeDetails();
+Console.WriteLine("Anual salary: " + employee.CalculateSalary());
+
+EmployeeDetails employeeDetails = (EmployeeDetails)employee;
+Console.WriteLine($"Monthly salary: {employeeDetails.MonthlySalary}");
