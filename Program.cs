@@ -164,29 +164,36 @@
 
 using ConsoleApplication2;
 
+// MyClass myClass = new MyClass();
+
+// MyClass.M1();
+
+// // int a;
+// // Console.WriteLine("Enter the number");
+// // a = int.Parse(Console.ReadLine());
+// // MyClass.M2(a);
+
+// int v = MyClass.M3();
+// Console.WriteLine(v);
+
+// int m, n;
+// Console.WriteLine("Enter teh number: ");
+// n = int.Parse(Console.ReadLine());
+
+// Console.WriteLine("Enter teh number: ");
+// m = int.Parse(Console.ReadLine());
+
+// // int sum = MyClass.M4(m, n);
+// MyClass myclass = new MyClass();
+
+// int sum = myclass.M5(m, n);
+
+// Console.WriteLine("Sum is " + sum);
+// Console.ReadLine();
+
 MyClass myClass = new MyClass();
+myClass.Name = "B tree";
+myClass.Age = 24;
 
-MyClass.M1();
-
-// int a;
-// Console.WriteLine("Enter the number");
-// a = int.Parse(Console.ReadLine());
-// MyClass.M2(a);
-
-int v = MyClass.M3();
-Console.WriteLine(v);
-
-int m, n;
-Console.WriteLine("Enter teh number: ");
-n = int.Parse(Console.ReadLine());
-
-Console.WriteLine("Enter teh number: ");
-m = int.Parse(Console.ReadLine());
-
-// int sum = MyClass.M4(m, n);
-MyClass myclass = new MyClass();
-
-int sum = myclass.M5(m, n);
-
-Console.WriteLine("Sum is " + sum);
-Console.ReadLine();
+Console.WriteLine(" display information");
+myClass.DisplayInfo();
