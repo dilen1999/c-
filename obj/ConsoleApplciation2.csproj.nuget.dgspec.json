@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\INTERN\\.Net\\C#\\ConsoleApplciation2\\ConsoleApplciation2.csproj": {}
+    "D:\\INTERN\\.Net\\C#\\ConsoleApplciation2\\ConsoleApplciation2.csproj": {}
   },
   "projects": {
-    "d:\\INTERN\\.Net\\C#\\ConsoleApplciation2\\ConsoleApplciation2.csproj": {
+    "D:\\INTERN\\.Net\\C#\\ConsoleApplciation2\\ConsoleApplciation2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\INTERN\\.Net\\C#\\ConsoleApplciation2\\ConsoleApplciation2.csproj",
+        "projectUniqueName": "D:\\INTERN\\.Net\\C#\\ConsoleApplciation2\\ConsoleApplciation2.csproj",
         "projectName": "ConsoleApplciation2",
-        "projectPath": "d:\\INTERN\\.Net\\C#\\ConsoleApplciation2\\ConsoleApplciation2.csproj",
+        "projectPath": "D:\\INTERN\\.Net\\C#\\ConsoleApplciation2\\ConsoleApplciation2.csproj",
         "packagesPath": "C:\\Users\\dilen\\.nuget\\packages\\",
-        "outputPath": "d:\\INTERN\\.Net\\C#\\ConsoleApplciation2\\obj\\",
+        "outputPath": "D:\\INTERN\\.Net\\C#\\ConsoleApplciation2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dilen\\AppData\\Roaming\\NuGet\\NuGet.Config",
