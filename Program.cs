@@ -227,13 +227,30 @@ using ConsoleApplication2;
 
 // Console.ReadLine();
 
-ElectricCar electricCar = new ElectricCar();
-electricCar.Speed = 100;
-electricCar.Model = "Testla";
-electricCar.BattaryLevel = 20;
+// ElectricCar electricCar = new ElectricCar();
+// electricCar.Speed = 100;
+// electricCar.Model = "Testla";
+// electricCar.BattaryLevel = 20;
 
-electricCar.ShowBattary();
-electricCar.ShowModel();
-electricCar.ShowSpeed();
+// electricCar.ShowBattary();
+// electricCar.ShowModel();
+// electricCar.ShowSpeed();
+
+// Console.ReadLine();
+
+Car car = new Car();
+car.Speed = 100;
+car.Model = "testla";
+
+
+Bike bike = new Bike();
+bike.Type = "mountain";
+bike.Speed = 299;
+
+car.ShowModel();
+car.ShowSpeed();
+
+bike.ShowType();
+bike.ShowSpeed();
 
 Console.ReadLine();
