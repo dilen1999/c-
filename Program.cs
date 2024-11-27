@@ -198,22 +198,42 @@ using ConsoleApplication2;
 // Console.WriteLine(" display information");
 // myClass.DisplayInfo();
 
-int empId;
-string empName, department;
-decimal salary;
+// int empId;
+// string empName, department;
+// decimal salary;
 
-Console.WriteLine("Enter Employee id: ");
-empId = int.Parse(Console.ReadLine());
-Console.WriteLine("Enter Employee Name: ");
-empName = Console.ReadLine();
-Console.WriteLine("Enter Employee Department: ");
-department = Console.ReadLine();
-Console.WriteLine("Enter Employee salary: ");
-salary = decimal.Parse(Console.ReadLine());
+// Console.WriteLine("Enter Employee id: ");
+// empId = int.Parse(Console.ReadLine());
+// Console.WriteLine("Enter Employee Name: ");
+// empName = Console.ReadLine();
+// Console.WriteLine("Enter Employee Department: ");
+// department = Console.ReadLine();
+// Console.WriteLine("Enter Employee salary: ");
+// salary = decimal.Parse(Console.ReadLine());
 
-IEmployee employee = new EmployeeDetails(empId, empName, department, salary);
-employee.DisplayEmployeeDetails();
-Console.WriteLine("Anual salary: " + employee.CalculateSalary());
+// IEmployee employee = new EmployeeDetails(empId, empName, department, salary);
+// employee.DisplayEmployeeDetails();
+// Console.WriteLine("Anual salary: " + employee.CalculateSalary());
 
-EmployeeDetails employeeDetails = (EmployeeDetails)employee;
-Console.WriteLine($"Monthly salary: {employeeDetails.MonthlySalary}");
+// EmployeeDetails employeeDetails = (EmployeeDetails)employee;
+// Console.WriteLine($"Monthly salary: {employeeDetails.MonthlySalary}");
+
+// Car car = new Car();
+// car.Speed = 120;
+// car.Model = "Tata";
+
+// car.ShowModel();
+// car.ShowSpeed();
+
+// Console.ReadLine();
+
+ElectricCar electricCar = new ElectricCar();
+electricCar.Speed = 100;
+electricCar.Model = "Testla";
+electricCar.BattaryLevel = 20;
+
+electricCar.ShowBattary();
+electricCar.ShowModel();
+electricCar.ShowSpeed();
+
+Console.ReadLine();
