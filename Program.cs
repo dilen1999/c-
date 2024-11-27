@@ -238,19 +238,27 @@ using ConsoleApplication2;
 
 // Console.ReadLine();
 
-Car car = new Car();
-car.Speed = 100;
-car.Model = "testla";
+// Car car = new Car();
+// car.Speed = 100;
+// car.Model = "testla";
 
 
-Bike bike = new Bike();
-bike.Type = "mountain";
-bike.Speed = 299;
+// Bike bike = new Bike();
+// bike.Type = "mountain";
+// bike.Speed = 299;
 
-car.ShowModel();
-car.ShowSpeed();
+// car.ShowModel();
+// car.ShowSpeed();
 
-bike.ShowType();
-bike.ShowSpeed();
+// bike.ShowType();
+// bike.ShowSpeed();
 
+// Console.ReadLine();
+
+PaymentDetails paymentDetails = new PaymentDetails();
+paymentDetails.MakePayment("1234-423434-544", "Ramu");
+
+paymentDetails.MakePayment("9878-8979798-09897", "Ramu", "1542");
+
+paymentDetails.MakePayment(150.00);
 Console.ReadLine();
