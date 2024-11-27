@@ -255,10 +255,25 @@ using ConsoleApplication2;
 
 // Console.ReadLine();
 
-PaymentDetails paymentDetails = new PaymentDetails();
-paymentDetails.MakePayment("1234-423434-544", "Ramu");
+// PaymentDetails paymentDetails = new PaymentDetails();
+// paymentDetails.MakePayment("1234-423434-544", "Ramu");
 
-paymentDetails.MakePayment("9878-8979798-09897", "Ramu", "1542");
+// paymentDetails.MakePayment("9878-8979798-09897", "Ramu", "1542");
 
-paymentDetails.MakePayment(150.00);
+// paymentDetails.MakePayment(150.00);
+// Console.ReadLine();
+
+Payment payment1 = new CreditCardPayment(100, "Abi", "21321-3213-4121");
+
+Payment payment2 = new DebitCardPaymrnt(200, "ikal", "6581-1517-4846");
+
+Payment payment3 = new CashPayment(2800, "Kema");
+
+Payment payment4 = new Test(4500, "Nakul");
+
+payment1.ProcessPayment();
+payment2.ProcessPayment();
+payment3.ProcessPayment();
+payment4.ProcessPayment();
+
 Console.ReadLine();
